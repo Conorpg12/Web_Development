@@ -1,0 +1,51 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    height: 10pc;
+    margin: auto;
+    align-items: center;
+}
+
+.OldTrafford,
+.nav-links,
+.bike{
+    display: flex;
+
+}
+.OldTrafford {
+    flex: 1;
+    
+}
+.OldTrafford{
+    font-weight: 200;
+    margin: 5px;
+}
+nav {
+    flex: 2;
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link{
+    color: gray;
+    font-size: 18px;
+    text-decoration: none;
+}
+.bike{
+    flex: 1;  
+    justify-content:flex-end;
+    size: 2px;
+}
